@@ -1,0 +1,23 @@
+{
+  "name": "chat-socketio",
+  "version": "1.0.0",
+  "description": "Chat desenvolvido com socketio",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "socket",
+    "real-time",
+    "web-socket"
+  ],
+  "author": "Mayke Ken dos Santos",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "socket.io": "^4.0.1"
+  }
+}
